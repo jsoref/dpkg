@@ -1127,7 +1127,7 @@
 
 	* src/archives.c (tarobject): Move a 'continue' inside a conditional
 	checking if the conffile to take over was obsolete on the other
-	package by adding missing bracese.
+	package by adding missing braces.
 
 2008-12-01  Raphaël Hertzog  <hertzog@debian.org>
 
