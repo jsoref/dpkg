@@ -14448,7 +14448,7 @@ Mon Oct 11 15:47:18 CEST 1999 Wichert Akkerman <wakkerma@debian.org>
 
   * Preparation to move start-stop-daemon from scripts to utils
   * Merge patches from Ben Collins <bcollins@debian.org>:
-    + modify remove_buld to remove conffiles when purging a package before we
+    + modify removal_bulk to remove conffiles when purging a package before we
       remove its directories.
     + check if we violate conflicts/depends/pre-depends of other packages when
       processing an archive.
