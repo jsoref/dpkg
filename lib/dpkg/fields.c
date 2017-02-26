@@ -483,7 +483,7 @@ f_dependency(struct pkginfo *pkg, struct pkgbin *pkgbin,
                       fip->name, depname.buf, arch.buf, emsg);
       } else if (fip->integer == dep_conflicts || fip->integer == dep_breaks ||
                  fip->integer == dep_replaces) {
-        /* Conflics/Breaks/Replaces get an implicit "any" arch qualifier. */
+        /* Conflicts/Breaks/Replaces get an implicit "any" arch qualifier. */
         dop->arch_is_implicit = true;
         dop->arch = dpkg_arch_get(DPKG_ARCH_WILDCARD);
       } else {
