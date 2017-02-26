@@ -10641,7 +10641,7 @@ dpkg (1.3.12) unstable; urgency=medium
 
   * dpkg-genchanges and dpkg-buildpackage say what source is included.
 
-  * dpkg-buildpackage passes +clearsig=on to PGP (or pgpcommand).  (Bug#4342.)
+  * dpkg-buildpackage passes +clearsign=on to PGP (or pgpcommand).  (Bug#4342.)
 
   * dpkg-source prints better error for cpio not honouring -0t.
   * control file Suggests cpio >= 2.4.2, rather than just cpio.
