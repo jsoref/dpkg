@@ -9207,7 +9207,7 @@ dpkg (1.9.11) unstable; urgency=low
   * warn instead of die when find returns an error(which happens if there
     is a dangling symlink, because we use -follow).  Closes: #51479.
   * Change list of allowed urgencies in debian/changelog to: low, medium,
-    high, and critcial.  Closes: #94475.
+    high, and critical.  Closes: #94475.
   * Error out if an illegal package name is used in dpkg-gencontrol.pl.
     Closes: #61211
   * Apply patch from Marcus Brinkmann to dpkg-buildpackage:  Closes:

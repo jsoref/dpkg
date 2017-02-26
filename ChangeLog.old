@@ -11785,7 +11785,7 @@ Wed Jun 20 11:28:25 CDT 2001 Adam Heath <doogie@debian.org>
       Set ARCH correctly to host architecture, rather than build arch.
     + scripts/dpkg-gencontrol.pl: Error if an illegal package name is used.
     + scripts/cl-debian.pl: Change list of allowed urgencies to: low, medium,
-      high, and critcial.
+      high, and critical.
     + scripts/dpkg-scanpackages.pl: warn instead of die when find returns
       an error(which happens if there is a dangling symlink, because we use
       -follow).
