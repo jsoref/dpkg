@@ -3267,7 +3267,7 @@ dpkg (1.16.5) unstable; urgency=low
     large member sizes. Closes: #678933
   * Add new dpkg-query --control-list and --control-show commands, which
     replace the now deprecated --control-path.
-  * Print master and slave alternarive link names in update-alternatives
+  * Print master and slave alternative link names in update-alternatives
     --query and always print alternative link in --config. Closes: #679010
   * Cleanup and clarify buffer I/O error reporting. Closes: #621763
   * Avoid full stop and double newline at the end of errors and warnings.
