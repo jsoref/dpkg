@@ -6774,7 +6774,7 @@
 	output.
 	(version): New function.
 	* scripts/dpkg-scansources.pl (Version): Rename variable to ...
-	(version): ... this (so it will be automaitcally updated by the
+	(version): ... this (so it will be automatically updated by the
 	Makefile).
 	(Option_spec): Pass \&usage to help option and \&version to version.
 	(Usage): Remove variable.
