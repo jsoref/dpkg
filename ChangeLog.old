@@ -11605,7 +11605,7 @@ Mon Jul 16 17:19:21 CEST 2001 Wichert Akkerman <wakkerma@debian.org>
   * dselect/basecmds.cc, dselect/dselect.h:
     + add checksearch and matchsearch functions to abstract searching algorithm
     + add displayerror member function
-  * dselect/baselist.cc: use new checkserach and matchsearch functions to
+  * dselect/baselist.cc: use new checksearch and matchsearch functions to
     do the real search/matching
   * dselect/pkglist.cc, dselect/pkglist.h: implement checksearch and
     matchsearch using regular expressions
