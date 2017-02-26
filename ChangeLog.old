@@ -13700,7 +13700,7 @@ Sun Feb 13 01:06:46 CET 2000 Wichert Akkerman <wakkerma@debian.org>
 
   * scripts/dpkg-buildpackage.sh: we know that dpkg-architecture is
     installed since we provide it, so don't test for its existence
-  * More updates from Marcus Brinkman:
+  * More updates from Marcus Brinkmann:
     + archtable: Change first column format from CPU to CPU-OS.
       Add entry for i386-gnu. Update comment.
     + configure.in: Check Debian architecture revamped:
