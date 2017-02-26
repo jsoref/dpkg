@@ -720,7 +720,7 @@ dpkg (1.18.8) unstable; urgency=medium
     defined. Based on a patch by Jérémy Bobbio <lunar@debian.org>.
     Closes: #759999
   * Do not use the debian/rules build target fallback when building both
-    architecture independent and dependent packages in dpkg-buipdpackage.
+    architecture independent and dependent packages in dpkg-buildpackage.
   * Use architecture «all» as part of the .changes filename when building
     architecture independent binaries and no architecture dependent binaries.
     Closes: #826161
@@ -1144,7 +1144,7 @@ dpkg (1.18.4) unstable; urgency=medium
       ‘-A’ option to the TERMS section. Closes: #799046
     - Clarify that the md5sum check on «dpkg --verify» is performed on the
       file contents, and failures denote changed content. Closes: #760248
-    - Document that dpkg-buildpacakge -nc -S implies -d.
+    - Document that dpkg-buildpackage -nc -S implies -d.
     - Clarify role of Build-Depends in deb-src-control(5).
       Prompted by Johannes Schauer <j.schauer@email.de>.
     - Document supported feature areas.
@@ -4560,7 +4560,7 @@ dpkg (1.15.7) unstable; urgency=low
     supposed to be.
   * Introduce a new script called dpkg-buildflags: its purpose is to retrieve
     compilation flags and it should be used within debian/rules to pass
-    the right compilation flags to the build process. dpkg-builpackage still
+    the right compilation flags to the build process. dpkg-buildpackage still
     exports them to not break packages currently relying on them but packages
     should now start using dpkg-buildflags instead. Closes: #560070
   * For Ubuntu set default value of LDFLAGS to -Wl,-Bsymbolic-functions.
@@ -10555,7 +10555,7 @@ dpkg (1.4.0.2) unstable; urgency=medium
   * dpkg-buildpackage.sh: reverted the quoting change -- (you
     should use super, sudo, really, but not su.  Or write a wrapper
     around su)
-  * dpkg-buildpackge.sh: passing -m, -C, -v options to dpkg-genchanges
+  * dpkg-buildpackage.sh: passing -m, -C, -v options to dpkg-genchanges
     more the way Ian likes ;-)
   * dpkg-source.pl: new function deoctify() as replacement for eval()
     (turn \ddd into the corresponding character) [rem: probably better
@@ -10578,7 +10578,7 @@ dpkg (1.4.0.1) unstable; urgency=medium
   * dpkg-source: doesn't get screwed up from `unprintable' characters
     in file names (e.g. from the kbd package)
   * controllib.pl: $varlistvile -> $varlistfile (thanx Karl Sackett)
-  * dpkg-buildpackge: quoting for $rootcommand (thanx  Michael Meskes)
+  * dpkg-buildpackage: quoting for $rootcommand (thanx  Michael Meskes)
     and `eval' as default $rootcommand
   * dpkg-*, controllib.pl: created debian/files and debian/substvars
     are chown'ed to `getlogin()' and its group

@@ -9506,7 +9506,7 @@ Mon Jul 19 20:17:09 BST 2004 Scott James Remnant <scott@netsplit.com>
 
 Sat Jun 26 18:38:34 CEST 2004 David Weinehall <tao@debian.org>
 
-  * scripts/dpkg-buildpackge.sh, scripts/dpkg-name.sh, methods/disk.update,
+  * scripts/dpkg-buildpackage.sh, scripts/dpkg-name.sh, methods/disk.update,
   methods/disk.setup: Change non-POSIX -a and -o test options to shell
   && and || for portability.
 
@@ -15129,7 +15129,7 @@ dpkg (1.4.0.2) unstable; urgency=medium
   * dpkg-buildpackage.sh: reverted the quoting change -- (you
     should use super, sudo, really, but not su.  Or write a wrapper
     around su)
-  * dpkg-buildpackge.sh: passing -m, -C, -v options to dpkg-genchanges
+  * dpkg-buildpackage.sh: passing -m, -C, -v options to dpkg-genchanges
     more the way Ian likes ;-)
   * dpkg-source.pl: new function deoctify() as replacement for eval()
     (turn \ddd into the corresponding character) [rem: probably better
@@ -15152,7 +15152,7 @@ dpkg (1.4.0.1) unstable; urgency=medium
   * dpkg-source: doesn't get screwed up from `unprintable' characters
     in file names (e.g. from the kbd package)
   * controllib.pl: $varlistvile -> $varlistfile (thanx Karl Sackett)
-  * dpkg-buildpackge: quoting for $rootcommand (thanx  Michael Meskes)
+  * dpkg-buildpackage: quoting for $rootcommand (thanx  Michael Meskes)
     and `eval' as default $rootcommand
   * dpkg-*, controllib.pl: created debian/files and debian/substvars
     are chown'ed to `getlogin()' and its group
