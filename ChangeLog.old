@@ -7117,7 +7117,7 @@
 
 	* src/main.h (clearselections): New prototype.
 	* src/main.c (usage): Print '--clear-selections' option description.
-	(cmdinfos): Add clear-selectons action.
+	(cmdinfos): Add clear-selections action.
 	* src/select.c (clearselections): New function.
 	* man/C/dpkg.1: Document the new '--clear-selections' option.
 
