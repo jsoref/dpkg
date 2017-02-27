@@ -7565,7 +7565,7 @@ dpkg (1.13.18) unstable; urgency=low
 dpkg (1.13.17) unstable; urgency=low
 
   [ Frank Lichtenheld ]
-  * Fix handling of -DArchitecure=foo in dpkg-gencontrol. Closes: #251911
+  * Fix handling of -DArchitecture=foo in dpkg-gencontrol. Closes: #251911
   * Handle architectures in all dependency fields in debian/control,
     even those of binary packages. Closes: #252657, #324741, #347819
   * More dpkg-scanpackages fixes (--arch option handling). Closes: #353506
@@ -8826,7 +8826,7 @@ dpkg (1.10.10) unstable; urgency=low
     #184239.
   * Modified to use autotools-dev.  Closes: #179656.
   * Add netbsd support.  Closes: #179658, #179659.
-  * Support hyphenated values in dpkg-architeture. Closes: #179661
+  * Support hyphenated values in dpkg-architecture. Closes: #179661
   * No longer managed the /usr/doc symlinks.
 
  -- Adam Heath <doogie@debian.org>  Sat, 26 Apr 2003 15:10:24 -0500
@@ -8949,7 +8949,7 @@ dpkg (1.10) unstable; urgency=low
   * When a package is set to hold, and a reinstallation is requested,
     -E will not properly skip it.  Closes: #45787.
   * Make dpkg-checkbuilddeps use dpkg-architecture. Closes: Bug#104230
-  * Improve dpkg-archtecture documentation. Closes: Bug#104232
+  * Improve dpkg-architecture documentation. Closes: Bug#104232
   * Update German translation. Closes: Bug#97239
   * Update Polish translation. Closes: Bug#115783
   * Update French translation.
@@ -9815,7 +9815,7 @@ dpkg (1.4.1.17) unstable; urgency=low
     a different uid when starting a process
   * Add mipseb and mipsel to the archtable too, since mips and mipseb are
     both viable names for the mips big endian arch, and mipsel is also needed
-  * Update dpkg-architecure's archtable
+  * Update dpkg-architecture's archtable
   * Added --config option to update-alternatives to allow easy changing
     of the registered alternatives for a specific name
   * Updated the deb-control(5) man page with all the current fields
@@ -10278,7 +10278,7 @@ dpkg (1.4.0.22) frozen unstable; urgency=medium
   * Minor fixes in the programmer's manual (Bug#6206)
   * Always create readable status and available files
     (Bug#9869,11887,14636,15786,19146)
-  * Make dpkg-gencontrol honour -DArchtecture=xxxx (Bug#9893)
+  * Make dpkg-gencontrol honour -DArchitecture=xxxx (Bug#9893)
   * Allow different archs for the same binary in debian/files (Bug#9894)
   * Added workaround in /usr/lib/dpkg/methods/disk/setup
     to avoid bash warning (Bug#10111,10131)

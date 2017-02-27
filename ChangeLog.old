@@ -7679,7 +7679,7 @@
 	instead of the hardcoded checks.
 	* scripts/dpkg-gencontrol.pl: Likewise.
 	* scripts/dpkg-source.pl: Likewise. Use dpkg_arch_expand to fill
-	the Architecture field with the legacy Debian architecures.
+	the Architecture field with the legacy Debian architectures.
 	* scripts/Makefile.am: New rule to generate .pl from .pl.in files.
 	* man/C/dpkg-architecture.1: Update. Add new options, and few words
 	about the format of the wildcards.
@@ -14330,7 +14330,7 @@ Mon Oct 18 09:25:30 EDT 1999 Ben Collins <bcollins.debian.org>
 
   * Add mipseb to the archtable too, since mips and mipseb are
     both viable names for the mips big endian arch
-  * Update dpkg-architecure's archtable
+  * Update dpkg-architecture's archtable
   * Removed the maintainer-configure portion in debian/rules, since
     we should be shipping the source with all the auto* stuff
     already generated anyway
@@ -14852,7 +14852,7 @@ dpkg (1.4.0.22) frozen unstable; urgency=medium
   * Minor fixes in the programmer's manual (Bug#6206)
   * Always create readable status and available files
     (Bug#9869,11887,14636,15786,19146)
-  * Make dpkg-gencontrol honour -DArchtecture=xxxx (Bug#9893)
+  * Make dpkg-gencontrol honour -DArchitecture=xxxx (Bug#9893)
   * Allow different archs for the same binary in debian/files (Bug#9894)
   * Added workaround in /usr/lib/dpkg/methods/disk/setup
     to avoid bash warning (Bug#10111,10131)
