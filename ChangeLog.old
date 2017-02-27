@@ -3441,7 +3441,7 @@
 	* lib/myopt.c (myfileopt): Likewise.
 	* dpkg-deb/build.c (getfi): Likewise.
 	* src/configure.c (md5hash): Likewise.
-	* src/help.c (vbuildarglist): Likewis.
+	* src/help.c (vbuildarglist): Likewise.
 	* src/main.c (execbackend): Likewise.
 	(commandfd): Likewise.
 
