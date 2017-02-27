@@ -9315,7 +9315,7 @@ dpkg (1.9.0) unstable; urgency=low
     * various other speedups.
   * Removed all --smallmem code, as smallmem and largemem now actually
     use about the same amount of memory, and largemem is faster.  Both
-    --largemem and --smallmem are now obselete options, and will print
+    --largemem and --smallmem are now obsolete options, and will print
     a warning if used. Closes: Bug#84905, #67528
   * Initialize uninitialized variables.  This should solve several
     segfaults. Closes: Bug#25317(plus 9 others, thru the beauty of
