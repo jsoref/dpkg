@@ -10957,7 +10957,7 @@ dpkg (1.2.4); priority=MEDIUM
   * dpkg-scanpackages allows many old maintainers (`//'-separated).
 
   * `Version' field is now mandatory (some operations already
-    wouldn't work right anyway if it was't there).
+    wouldn't work right anyway if it wasn't there).
 
   * update-rc.d(8) now says you must remove the script.  (Bug#3215.)
   * dpkg --force-help says that --force-overwrite is on by default.
