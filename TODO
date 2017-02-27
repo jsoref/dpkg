@@ -103,7 +103,7 @@ Fix:
 <joeyh_> package a conflicted with old versions of package b. package b
       conflicted with old versions of package a. I had the old versions of both
       installed, and told dpkg to install the new versions of a and b
-      simulantaneously. It refused.
+      simultaneously. It refused.
 
 dselect:
 * support Enhances
