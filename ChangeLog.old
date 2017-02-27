@@ -6148,7 +6148,7 @@
 
 2007-03-06  Guillem Jover  <guillem@debian.org>
 
-	* scripts/dpkg-scanpackages.pl (usage): Documemt that the override
+	* scripts/dpkg-scanpackages.pl (usage): Document that the override
 	file is now optional.
 	(load_override): New function, refactored. Handle the case where
 	'$override' is undefined.
