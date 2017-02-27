@@ -77,7 +77,7 @@ dpkg_db_get_dir(void)
  * This function returns an allocated string, which should be freed with
  * free(2).
  *
- * @param pathpart The pathpart to append to the new pathnme.
+ * @param pathpart The pathpart to append to the new pathname.
  *
  * @return The newly allocated pathname.
  */
