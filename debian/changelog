@@ -5020,7 +5020,7 @@ dpkg (1.15.5) unstable; urgency=low
     memory usage when handling lots of symlinks, and be slightly faster.
   * Rework varbuf API to avoid increasing buffers indefinitely when adding
     content to them, regardless of space being already available.
-  * Fix build macros to allow start-stop-deaemon to use TIOCNOTTY.
+  * Fix build macros to allow start-stop-daemon to use TIOCNOTTY.
   * Generate the autoconf version from git to make it easier to see when a
     snapshot version is being used.
   * Add infrastructure for doxygen, for now not installed anywhere.
@@ -7841,7 +7841,7 @@ dpkg (1.13.12) experimental; urgency=low
     - Czech (Miroslav Kure). Closes: #345347
   * Fixed broken translation:
     - Brazilian Portuguese (James Troup). Closes: #332872
-  * Fix Russian man page for start-stop-deamon(8)
+  * Fix Russian man page for start-stop-daemon(8)
     Closes: #325804
   * Fix German man page for update-alternatives(8)
     Closes: #329908
@@ -10301,7 +10301,7 @@ dpkg (1.4.0.21) unstable; urgency=low
   * Non-maintainer release to include a new update-rc.d
   * Fixed date on files in the archive from 2017 and 2018 by running
     touch foo; find . -newer foo | xargs -r touch; rm foo
-  * Changed start-stop-deamon message "No <program> found; none killed." to
+  * Changed start-stop-daemon message "No <program> found; none killed." to
     "No <program> found running; none killed."
 
  -- Miquel van Smoorenburg <miquels@cistron.nl>  Thu,  5 Mar 1998 14:19:46 +0100

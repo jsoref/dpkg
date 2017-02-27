@@ -14875,7 +14875,7 @@ dpkg (1.4.0.21) unstable; urgency=low
   * Non-maintainer release to include a new update-rc.d
   * Fixed date on files in the archive from 2017 and 2018 by running
     touch foo; find . -newer foo | xargs -r touch; rm foo
-  * Changed start-stop-deamon message "No <program> found; none killed." to
+  * Changed start-stop-daemon message "No <program> found; none killed." to
     "No <program> found running; none killed."
 
  -- Miquel van Smoorenburg <miquels@cistron.nl>  Thu,  5 Mar 1998 14:19:46 +0100
