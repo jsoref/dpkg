@@ -7725,7 +7725,7 @@ dpkg (1.13.14) experimental; urgency=low
     - Galician (Jacobo Tarrio): 1002t. Closes: #351795
     - Basque (Piarres Beobide): 1002t. Closes: #351845
     - Slovak (Peter Mann): 1002t. Closes: #352087, #352311
-    - Vietnamese (Clytie Siddal): 1011t. Closes: #352307
+    - Vietnamese (Clytie Siddall): 1011t. Closes: #352307
 
  -- Frank Lichtenheld <djpig@debian.org>  Sun, 12 Feb 2006 02:32:12 +0100
 
