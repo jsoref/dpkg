@@ -13146,7 +13146,7 @@ Mon Dec  4 14:42:01 CET 2000 Wichert Akkerman <wakkerma@debian.org>
   * scripts/dpkg-statoverride.pl, main/filesdb.c: merge patch from
     Robert Luberda <robert@pingu.ii.uj.edu.pl> to fix statoverrides
     using numerical [ug]ids
-  * Merge updats from the v17 branch:
+  * Merge updates from the v17 branch:
     + scripts/dpkg-buildpackage.sh: Quote test options for usepause
     + scripts/dpkg-shlibdeps.pl: resolve library paths using a combination
       of the libc major version, and ldconfig -p output. Solves problems
