@@ -326,7 +326,7 @@ static void conffvalue_lastword(const char *value, const char *from,
 
 malformed:
   parse_error(ps,
-              _("value for '%s' field has malformatted line '%.*s'"),
+              _("value for '%s' field has malformed line '%.*s'"),
               "Conffiles", (int)min(endent - value, 250), value);
 }
 
