@@ -9422,7 +9422,7 @@ dpkg (1.8.3.1) unstable; urgency=low
 dpkg (1.8.3) unstable; urgency=low
 
   * Do chown before chmod in dpkg-statoverride, Closes: Bug#81943
-  * Fix recusion in dpkg-shlibdeps, Closes: Bug#81322
+  * Fix recursion in dpkg-shlibdeps, Closes: Bug#81322
   * Really completely revert dpkg-source patches which broke backwards
     compatibility
 
