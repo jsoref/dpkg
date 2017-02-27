@@ -10022,7 +10022,7 @@ Sun Feb 29 21:56:25 GMT 2004 Scott James Remnant <scott@netsplit.com>
 
   * scripts/dpkg-checkbuilddeps.pl: Push build-conflicts errors into
   @conflicts instead of @unmet, this looks like an accidental error
-  introduced by bad copy&pasteing.
+  introduced by bad copy&pasting.
 
 Mon Mar  8 17:26:06 GMT 2004 Scott James Remnant <scott@netsplit.com>
 
