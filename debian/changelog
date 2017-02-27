@@ -7526,7 +7526,7 @@ dpkg (1.13.18) unstable; urgency=low
   * Spanish (Javier Fernández-Sanguino Peña). Closes: #357912
   * Danish (Claus Hindsgaul). Closes: #356188
   * Polish (Robert Luberda).
-  * Russian (Yuri Kowlov). Closes: #361415
+  * Russian (Yuri Kozlov). Closes: #361415
 
   [ Updated man pages translations ]
   * Typos corrected in French dpkg-source man page
