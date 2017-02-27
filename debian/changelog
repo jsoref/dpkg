@@ -9397,7 +9397,7 @@ dpkg (1.9.0) unstable; urgency=low
     Closes: Bug#89409
   * Give a syntax error when we get an unexpected PGP signature in control
     files. Closes: Bug#75562
-  * Change dpkg manpage to reflect that --force-statoveride is no enabled
+  * Change dpkg manpage to reflect that --force-statoverride is no enabled
     by default. Closes: Bug#95023
   * Handle dangling symlinks, by ignoring error code 1 from find, when
     processing --recursive. Closes: Bug#4784
@@ -9530,7 +9530,7 @@ dpkg (1.7.2) unstable; urgency=low
 
 dpkg (1.7.1) unstable; urgency=medium
 
-  * Fix a typo in the dpkg-statoveride manpage
+  * Fix a typo in the dpkg-statoverride manpage
   * dpkg-statoverride reads and writes the right file now
   * Make update-alternatives use the right dir for alternatives again
 
