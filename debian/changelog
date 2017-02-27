@@ -2749,7 +2749,7 @@ dpkg (1.17.2) unstable; urgency=low
     the link group is broken, just print a notice that the alternative is
     being updated due to the changes.
   * Add a new «dpkg --verify» command to check the integrity of packages
-    installed files. Add a --verify-format option to excplicitly select the
+    installed files. Add a --verify-format option to explicitly select the
     output format, currently only rpm compatible output is supported, but
     the default might change in the future. Closes: #187019
   * Improve dpkg “Preparing to replace” and “Unpacking” progress messages.
