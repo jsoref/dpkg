@@ -63,8 +63,8 @@ chdir($cwd);
 
 @librarypaths = Dpkg::Shlibs::get_library_paths();
 is_deeply(\@librarypaths,
-          [ qw(/nonexistant32 /nonexistant/lib64
-               /usr/local/lib /nonexistant/lib128) ], 'parsed library paths');
+          [ qw(/nonexistent32 /nonexistent/lib64
+               /usr/local/lib /nonexistent/lib128) ], 'parsed library paths');
 
 use_ok('Dpkg::Shlibs::Objdump');
 
