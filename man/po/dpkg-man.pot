@@ -782,7 +782,7 @@ msgstr ""
 #. type: Plain text
 #: deb-buildinfo.man:1
 msgid ""
-"On Debian and derivaties only build paths starting with I</build/> will emit "
+"On Debian and derivatives only build paths starting with I</build/> will emit "
 "this field."
 msgstr ""
 
