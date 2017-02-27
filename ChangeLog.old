@@ -4484,7 +4484,7 @@
 
 	* scripts/dpkg-gencontrol.pl: Unify parsing of Section and Priority
 	fields with Homepage.
-	(%spvalue, %spdefault): Remove unued variables.
+	(%spvalue, %spdefault): Remove unused variables.
 	(spfileslistvalue): Use %f instead of %spvalue.
 
 2007-11-29  Guillem Jover  <guillem@debian.org>
