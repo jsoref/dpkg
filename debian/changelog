@@ -8598,7 +8598,7 @@ dpkg (1.10.16) unstable; urgency=low
     Fix missing space in French translation of: "%s - warning: downgrading
     %.250s from %.250s to %.250s.\n"  Closes: #149142
   * Hidetaka Iwai <tyuyu@sings.jp>:
-    Fix typo in Japanese translation of dpkg --force-help; dowgrade ->
+    Fix typo in Japanese translation of dpkg --force-help; downgrade ->
     downgrade:  Closes: #157819
   * Martin Quinson <mquinson@ens-lyon.fr>:
     Fix French translation when listing files, and the file is diverted.

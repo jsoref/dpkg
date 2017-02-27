@@ -10155,7 +10155,7 @@ Sat Sep 20 20:42:35 CDT 2003 Adam Heath <doogie@debian.org>
   * po/pl.po:
     * Updated.
     * Fix translation of 'conflicts with'
-  * po/ja.po: Fix typo in translation of dpkg --force-help; dowgrade ->
+  * po/ja.po: Fix typo in translation of dpkg --force-help; downgrade ->
     downgrade
   * po/fr.po:
     * Fix translation when listing files, and the file is diverted.
