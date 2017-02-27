@@ -3046,7 +3046,7 @@ dpkg (1.16.10) unstable; urgency=low
   [ Updated programs translations ]
   * Esperanto (Felipe Castro).
   * Spanish (Javier Fernández-Sanguino).
-  * Vietnamesea (Trần Ngọc Quân). Closes: #692100
+  * Vietnamese (Trần Ngọc Quân). Closes: #692100
 
   [ Updated scripts translations ]
   * Fix mistranslation in French translation of scripts.
