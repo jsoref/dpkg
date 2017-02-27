@@ -16747,7 +16747,7 @@ Wed Nov 30 15:38:21 GMT 1994  Ian Jackson  <iwj10@cus.cam.ac.uk>
 
 	* conffile updating fixed.
 
-	* Message `updgrade' in dpkg changed to `replace'.
+	* Message `update' in dpkg changed to `replace'.
 
 	* install-info now copes with multi-line entries.
 
