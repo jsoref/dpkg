@@ -3104,11 +3104,11 @@
 
 	* lib/Makefile.am (libdpkg_a_SOURCES): Add 'dpkg-def.h'.
 	* lib/dpkg.h: Include 'dpkg-def.h'.
-	(CONSTANT, PRINTFFORMAT, NONRETURNING, UNUSED): Move defninitions
+	(CONSTANT, PRINTFFORMAT, NONRETURNING, UNUSED): Move definitions
 	to ...
 	* lib/dpkg-def.h: ... here. New file.
 	* utils/start-stop-daemon.c: Include 'dpkg-def.h'.
-	(CONSTANT, PRINTFFORMAT, NONRETURNING, UNUSED): Remove defninitions.
+	(CONSTANT, PRINTFFORMAT, NONRETURNING, UNUSED): Remove definitions.
 
 2008-03-11  Ian Jackson  <ian@davenant.greenend.org.uk>
 
