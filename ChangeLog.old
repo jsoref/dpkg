@@ -2671,7 +2671,7 @@
 	trigger statuses.
 	(dependencies_ok): Handle packages which can be fixed by means of
 	processing their triggers.
-	* src/processarc.c (process_archive): Ensure file triggers intersts.
+	* src/processarc.c (process_archive): Ensure file triggers interests.
 	Activate trigger package processing. Parse package triggers control
 	file before reading the conffiles. Treat trigger statuses the same
 	way as installed. Activate trigger package processing for the package
