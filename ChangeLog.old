@@ -2749,7 +2749,7 @@
 
 	* scripts/dpkg-buildpackage.pl: If the user request a cross-compilation,
 	then define PKG_CONFIG_LIBDIR so that it will look in directories
-	specidic to the target architecture.
+	specific to the target architecture.
 	* man/dpkg-buildpackage.1: Document this change and also the -t option.
 
 2008-03-28  Raphaël Hertzog  <hertzog@debian.org>
