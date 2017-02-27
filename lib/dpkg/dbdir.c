@@ -38,7 +38,7 @@ static const char *db_dir = ADMINDIR;
  * is NULL. For the latter the order is, value from environment variable
  * DPKG_ADMINDIR, and then the built-in default ADMINDIR,
  *
- * @param dir The new databse directory, or NULL to set to default.
+ * @param dir The new database directory, or NULL to set to default.
  *
  * @return The new database directory.
  */
