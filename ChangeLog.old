@@ -12535,7 +12535,7 @@ Fri Mar  2 17:29:02 CET 2001 Wichert Akkerman <wakkerma@debian.org>
   * configure.in: use AC_C_INLINE instead of our own test
   * lib/nfmalloc, include/dpkg-db.h: remove HAVE_INLINE tests, use extern
     inline directly
-  * lib/varbuf.c: add inline keyowrd to varbufaddc
+  * lib/varbuf.c: add inline keyword to varbufaddc
   * optlib/Makefile.in: undo earlier patch and build libopt.a again
   * lib/Makefile.in: use libopt.a again, and a rule to build it
   * Makefile.in: build optlib before lib
