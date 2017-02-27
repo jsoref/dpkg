@@ -5388,7 +5388,7 @@
 	Breaks needs to be implemented.
 	* src/depcon.c (depisok): Likewise. Remove return at the beginning
 	of the function checking for a Breaks dependency, that was
-	efectively making it a no-op in that case.
+	effectively making it a no-op in that case.
 	* src/processarc.c (process_archive): Fix indentation. Split calls
 	in deconfigure code to printf and maintainer_script_installed
 	depending on the removing variable.
