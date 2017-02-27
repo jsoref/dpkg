@@ -11281,7 +11281,7 @@ dpkg (1.0.10); priority=MEDIUM
 
 dpkg (1.0.9); priority=MEDIUM
 
-  * dselect uninitialised variable coredump fixed (thanks Carl).
+  * dselect uninitialized variable coredump fixed (thanks Carl).
 
   * version numbers printed by --version fixed.  (Bug#2115.)
   * disk method problem with missing Packages files fixed.  (Bug#2114.)
@@ -11821,7 +11821,7 @@ dpkg (0.93.42.1) BETA; priority=HIGH esp. for new installations
 
 dpkg (0.93.42) BETA; priority=LOW; HIGH for dselect users
 
-  * Fix unitialised variable reference bug in dselect (#890).
+  * Fix uninitialized variable reference bug in dselect (#890).
   * Fix problem with wordwrapping package and method descriptions.
   * Create /var/lib/dpkg/methods/mnt.
 
@@ -11951,7 +11951,7 @@ dpkg (0.93.33) BETA; priority=LOW (HIGH for dselect users)
 
  * dselect now has a main menu.
 
- * Fixed nasty uninitialised data bug in dselect.
+ * Fixed nasty uninitialized data bug in dselect.
 
  * dselect now locks and unlocks the packages database.
 
