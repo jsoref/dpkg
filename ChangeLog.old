@@ -12328,7 +12328,7 @@ Sun Apr 22 01:45:25 CEST 2001 Wichert Akkerman <wakkerma@debian.org>
 Sat Apr 21 18:00:31 CDT 2001 Adam Heath <doogie@debian.org>
 
   * main/main.c: reworked \\ parsing in commandfd.
-  * lib/dbmodify.c: fix non-full initalizer.
+  * lib/dbmodify.c: fix non-full initializer.
 
 Sun Apr 22 00:48:18 CEST 2001 Wichert Akkerman <wakkerma@debian.org>
 
